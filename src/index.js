@@ -1,4 +1,10 @@
-import {saludar} from './js/componentes';
 import './styles.css';
-const nombre ='Eduard';
-saludar(nombre);
+import {Todo, TodoList} from './js/classes'
+import { crearTodoHtml } from './js/componentes';
+
+// Llamada a clases
+
+export const todoList = new TodoList();
+
+todoList.todos.forEach(todo => crearTodoHtml(todo));
+//todoList.todos.forEach( crearTodoHtml); Forma simplificada
