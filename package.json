@@ -1,7 +1,7 @@
 {
-  "name": "webpack-inicial",
+  "name": "bloc-de-notas",
   "version": "1.0.0",
-  "description": "inicialización de webpack",
+  "description": "Bloc de notas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
